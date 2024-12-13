@@ -1,12 +1,8 @@
 #%%
 import numpy as np
-from collections import defaultdict
-import tsplib95
 
 from Greedy import greedy_tsp_from_tsplib, plot_path
-from PPOAgent import PPOAgent
 from QLearningAgent import QLearningAgent
-from DoubleQAgent import DoubleQAgent
 
 #print(problem)
 from TSPenv import TSPEnv
